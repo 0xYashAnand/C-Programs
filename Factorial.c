@@ -9,12 +9,17 @@ int main(){
 }
 
 int factorial(int a){
+    int h , n;
     if (a==0||a==1)
     {
-        return 1;
+        n = 1;
+        return n ;
     }
     else
-    { 
-        return a*factorial(a-1);
+    {
+        h = a*factorial(a-1);
+        return h;
     }
+    
+
 }
